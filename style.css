@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(../img/paisagem.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    padding: 0 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.card {
+    text-align: center;
+    background-color: rgb(212, 226, 252);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #333;
+}
+
+#conselho {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+    min-height: 50px;
+}
+
+#gerar-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#gerar-btn:hover {
+    background-color: #0056b3;
+}
+
+a {
+    margin: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
